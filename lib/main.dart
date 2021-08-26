@@ -45,13 +45,13 @@ class MyApp extends StatelessWidget {
                       Flexible(
                         flex: 1,
                         child: Container(
-                          color: Colors.white,
+                          color: Colors.black12,
                         ),
                       ),
                       Flexible(
                         flex: 1,
                         child: Container(
-                          color: Colors.black12,
+                          color: Colors.white,
                         ),
                       )
                     ],
@@ -99,10 +99,63 @@ class MyApp extends StatelessWidget {
                           fontSize: 30,
                         ),
                       ),
+                    ),
+                    Container(
+                      margin: EdgeInsets.all(10),
+                      child: Text(
+                        'Ini adalah teks yang ada di lapisan tengah dari Stack.',
+                        style: TextStyle(
+                          fontSize: 30,
+                        ),
+                      ),
+                    ),
+                    Container(
+                      margin: EdgeInsets.all(10),
+                      child: Text(
+                        'Ini adalah teks yang ada di lapisan tengah dari Stack.',
+                        style: TextStyle(
+                          fontSize: 30,
+                        ),
+                      ),
+                    ),
+                    Container(
+                      margin: EdgeInsets.all(10),
+                      child: Text(
+                        'Ini adalah teks yang ada di lapisan tengah dari Stack.',
+                        style: TextStyle(
+                          fontSize: 30,
+                        ),
+                      ),
+                    ),
+                    Container(
+                      margin: EdgeInsets.all(10),
+                      child: Text(
+                        'Ini adalah teks yang ada di lapisan tengah dari Stack.',
+                        style: TextStyle(
+                          fontSize: 30,
+                        ),
+                      ),
+                    ),
+                    Container(
+                      margin: EdgeInsets.all(10),
+                      child: Text(
+                        'Ini adalah teks yang ada di lapisan tengah dari Stack.',
+                        style: TextStyle(
+                          fontSize: 30,
+                        ),
+                      ),
                     )
                   ],
                 )
               ],
+            ),
+            Align(
+              alignment: Alignment(0.9, 0.9),
+              child: RaisedButton(
+                child: Text('My Button'),
+                color: Colors.amber,
+                onPressed: () {},
+              ),
             )
             // button di tengah bawah
           ],
