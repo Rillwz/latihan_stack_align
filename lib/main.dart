@@ -58,8 +58,52 @@ class MyApp extends StatelessWidget {
                   ),
                 )
               ],
-            )
+            ),
             // listview dengan text
+            ListView(
+              children: [
+                Column(
+                  children: [
+                    Container(
+                      margin: EdgeInsets.all(10),
+                      child: Text(
+                        'Ini adalah teks yang ada di lapisan tengah dari Stack.',
+                        style: TextStyle(
+                          fontSize: 30,
+                        ),
+                      ),
+                    ),
+                    Container(
+                      margin: EdgeInsets.all(10),
+                      child: Text(
+                        'Ini adalah teks yang ada di lapisan tengah dari Stack.',
+                        style: TextStyle(
+                          fontSize: 30,
+                        ),
+                      ),
+                    ),
+                    Container(
+                      margin: EdgeInsets.all(10),
+                      child: Text(
+                        'Ini adalah teks yang ada di lapisan tengah dari Stack.',
+                        style: TextStyle(
+                          fontSize: 30,
+                        ),
+                      ),
+                    ),
+                    Container(
+                      margin: EdgeInsets.all(10),
+                      child: Text(
+                        'Ini adalah teks yang ada di lapisan tengah dari Stack.',
+                        style: TextStyle(
+                          fontSize: 30,
+                        ),
+                      ),
+                    )
+                  ],
+                )
+              ],
+            )
             // button di tengah bawah
           ],
         ),
